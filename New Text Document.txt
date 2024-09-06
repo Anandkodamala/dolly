@@ -1,0 +1,25 @@
+1) Create a traditional file system of 2GB, mount point as /scripts? 
+a)Under /scripts create dir basic & then create the files below in basic
+	1)scriptl.sh (date, uptime, uname -r)
+	2)script2.sh (mounted file system info, long list of content in /scripts dir) 
+	3)script3.sh (information attributes of basic dir, ssh port checking and routing table)
+
+2)For basic directory give set gid and sticky bit permissions?
+
+3)Increase the file system /scripts to 5GB?
+
+4)Create a lvm i2m1 file system of 10GB and mount point as /users/home?
+
+5)Create users in the group vnins-2300, 1.nani-2301, 2.guru-2302, 3.chinni-2303. & lock guru & set nani password fot 30 days only?
+
+6)Share the file systems /scripts & /users/home using NFS? 
+	a)Make nfs master as client a)Hard mount the /scripts as labwork 
+	b)Soft mount the /users/home as /user/dir.
+
+7)Creat the dir's named NFS,NIS,SCP in labwork with all 3 users? (dir for an user is your choice).
+
+8)Create a script using echo for all above scripts as echoscript.sh?
+
+9)Update the kernel version from 7.0 to 7.1 using yum?
+
+10)Save the output of echoscript.sh in file named backup_name & copy it into /tmp of server 10.10.4.100?
